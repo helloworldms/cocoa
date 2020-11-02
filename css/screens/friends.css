@@ -9,3 +9,7 @@
 .friends-display-link i {
   color: #cccccc;
 }
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}

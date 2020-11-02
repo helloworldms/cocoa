@@ -4,10 +4,8 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/fe8d9c8bb6.js" crossorigin="anonymous"></script>
     <title>Welcome to cocoa talk</title>
-     <!-- Place your kit's code here -->
-     <script src="https://kit.fontawesome.com/fe8d9c8bb6.js" crossorigin="anonymous"></script>
-    </head>
   </head>
   <body>
     <div class="status-bar">
@@ -63,18 +61,32 @@
       </div>
     </div>
 
-    <header class="welcom-header">
-      <h1 class="welcom-header__title">Welcome to cocoa clone</h1>
-      <p class="welcom-header__text">
-        if hou have a kakao account log in with your email or phone number.
-      </p>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14">
+                <g fill="none" fill-rule="evenodd">
+                    <g fill="#121212">
+                        <path d="M15.72 6.52v7.8h7.8v1.4h-7.8v7.8h-1.4v-7.8h-7.8v-1.4h7.8v-7.8h1.4z" transform="translate(-8 -8) rotate(45 15.02 15.02)"/>
+                    </g>
+                </g></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
     </header>
-    <form action="friends.html " method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone" />
-      <input type="password" placeholder="password" />
-      <input class="tll1" type="submit" value="Log in" />
-      <input class="tll2" type="submit" value="sign up" />
-      <a href="#">Find KaKao Account or password</a>
-    </form>
+
+    <a class="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li clasee = "nav__btn"><a class ="nav__link" href="#"><i class="far fa-smile fa-lg"></i></a></li>
+            <li clasee = "nav__btn"><a class ="nav__link" href="#"><span class="nav__notification">1</span><i class="far fa-comment fa-lg"></i></a></li>
+            <li clasee = "nav__btn"><a class ="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li clasee = "nav__btn"><a class ="nav__link" href="#"><i class="fas fa-ellipsis-v fa-lg"></i></a></li>
+        </ul>
+    </nav>
   </body>
 </html>

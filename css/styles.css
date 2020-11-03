@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap");
 @import "reset.css";
 @import "variables.css";
 
 @import "components/status-bar.css";
 
+@import "components/badge.css";
 @import "screens/login.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "screens/friends.css";
 @import "components/user-component.css";
-
+@import "find.css";
 .body {
-  color: #333333
-  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
 }
 
 .welcom-header {
@@ -34,4 +34,8 @@
   line-height: 20px;
   font-size: 18px;
   color: #999999;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
